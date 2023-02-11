@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.points-buttons{
+    
+}
+
+.add-points-btns-home{
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #9AABD8;
+box-sizing: border-box;
+width: 45px;
+height: 45px;
+left: 136px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background-color: transparent;
+}
+
+.add-points-btns-guest{
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #9AABD8;
+box-sizing: border-box;
+width: 45px;
+height: 45px;
+left: 136px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background-color: transparent;
+}
+
+#home-score{
+width: 155px;
+left: 82px;
+background: #080001;
+border-radius: 5px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#guest-score{
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+background: #080001;
+border-radius: 5px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.board-title-home{
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+text-align: center;
+color: #EEEEEE;
+}
+
+.board-title-guest{
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+text-align: center;
+color: #EEEEEE;
+}
+
+#score-bg{
+position: relative;
+width: 575px;
+height: 500px;
+background: #1B244A;
+margin-left:40px;
+}
+
+.new-game{
+    margin-top: 20px;
+    background-color: red;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 700;
+    font-size: 25px
+}

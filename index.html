@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="score-bg" class="container">
+            <div>
+                <h3 class="board-title-home">HOME</h3>
+                <div class="bg-score">
+                <h2 id="home-score">0</h2>
+                </div>
+                <div class="points-buttons" id="home">
+                    <button onclick="addonescore()" id="home-1" class="add-points-btns-home">+1</button>
+                    <button onclick="addtwoscore()" id="home-2" class="add-points-btns-home">+2</button>
+                    <button onclick="addthreescore()" id="home-3" class="add-points-btns-home">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="board-title-guest">GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <div class="points-buttons" id="home">
+                    <button onclick="guestaddonescore()" id="guest-1" class="add-points-btns-guest">+1</button>
+                    <button onclick="guestaddtwoscore()" id="guest-2" class="add-points-btns-guest">+2</button>
+                    <button onclick="guestaddthreescore()" id="guest-3" class="add-points-btns-guest">+3</button>
+                </div>
+                 <button onclick="newgame()" class="new-game">New Game</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
